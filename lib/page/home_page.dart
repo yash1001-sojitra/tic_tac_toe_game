@@ -306,7 +306,7 @@ class HomeBackgroundImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return ShaderMask(
       shaderCallback: (bounds) => LinearGradient(
-        colors: [Colors.black.withOpacity(1), Colors.black.withOpacity(0.56)],
+        colors: [Colors.black.withOpacity(0.5), Colors.black.withOpacity(0.26)],
         begin: Alignment.bottomCenter,
         end: Alignment.center,
       ).createShader(bounds),
@@ -314,7 +314,7 @@ class HomeBackgroundImage extends StatelessWidget {
       child: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/images/game_back.jpg"),
+            image: AssetImage("assets/images/homeback.jpg"),
             fit: BoxFit.cover,
             colorFilter: ColorFilter.mode(Colors.black45, BlendMode.darken),
           ),
