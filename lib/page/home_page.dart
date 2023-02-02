@@ -144,17 +144,21 @@ class _HomepageState extends State<Homepage> {
               onTap: () {
                 _tapped(index);
               },
-              child: Container(
-                decoration: BoxDecoration(
-                    border: Border.all(color: Colors.white),
-                    color: Colors.white12),
-                child: Center(
-                  child: Text(
-                    _xOrOList[index],
-                    style: TextStyle(
-                      color:
-                          _xOrOList[index] == 'x' ? Colors.white : Colors.red,
-                      fontSize: 40,
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Container(
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      border: Border.all(color: Colors.white),
+                      color: Colors.white12),
+                  child: Center(
+                    child: Text(
+                      _xOrOList[index],
+                      style: TextStyle(
+                        color:
+                            _xOrOList[index] == 'x' ? Colors.white : Colors.red,
+                        fontSize: 40,
+                      ),
                     ),
                   ),
                 ),

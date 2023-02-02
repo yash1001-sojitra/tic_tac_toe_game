@@ -33,10 +33,10 @@ Future<void> showAlertDialog(
       title: Text(title),
       content: Text(content),
       actions: <Widget>[
-        FlatButton(
-          onPressed: () => onOkPressed(),
-          child: Text(defaultActionText),
-        ),
+        // FlatButton(
+        //   onPressed: () => onOkPressed(),
+        //   child: Text(defaultActionText),
+        // ),
       ],
     ),
   );
