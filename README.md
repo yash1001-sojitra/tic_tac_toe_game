@@ -6,11 +6,12 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Screenshots :-
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p>
+<img src="https://github.com/yash1001-sojitra/tic_tac_toe_game/blob/master/Screenshots/1.png" height="390"/> &#160;
+<img src="https://github.com/yash1001-sojitra/tic_tac_toe_game/blob/master/Screenshots/2.png" height="390"/> &#160;
+<img src="https://github.com/yash1001-sojitra/tic_tac_toe_game/blob/master/Screenshots/3.png" height="390"/> &#160;
+
+</p>
